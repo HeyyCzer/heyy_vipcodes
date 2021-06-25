@@ -1,0 +1,40 @@
+body {
+	background: transparent !important;
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#actionmenu {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a, a:hover {
+    text-decoration: none !important;
+}
+
+.vehicle {
+	cursor: pointer;
+	user-select: none;
+}
+
+.vehicle-active {
+	background: #0d6dfd79 !important;
+}
