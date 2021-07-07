@@ -13,12 +13,12 @@ vehicles = {
     ["vip"] = {
         name = "Carros VIPs",
         vehList = {"r1250", "s1000rr", "ferrariitalia", "teslaprior", "porsche992", "i8", "nissantitan17", "bolide",
-                   "gt17", "nissangtrnismo", "488gtb", "veneno", "fc15", "lamborghinihuracan", "911r", "audirs7", "audirs6", "bc", "amggtr", "2018zl1", "aperta", "fxxkevo", "lp700r", "g65amg", "rmodgt63"}
+                   "gt17", "nissangtrnismo", "488gtb", "veneno", "fc15", "lamborghinihuracan", "911r", "audirs7", "audirs6", "bc", "amggtr", "2018zl1", "aperta", "fxxkevo", "lp700r", "g65amg", "rmodgt63", "toyotasupra", "ysbrimps11" }
     },
     -- ultimate
     ["ultimate"] = {
         name = "Carros Ultimate",
-        vehList = {"r8ppi", "lancerevolutionx", "nissanskyliner34", "nissangtr", "senna", "toyotasupra"}
+        vehList = {"r8ppi", "lancerevolutionx", "nissanskyliner34", "nissangtr", "senna", "2f2fgts", "rx7veilside", "2f2fmle7", "bmeclipse95", "feltzer2" }
     },
     -- premium
     ["premium"] = {
@@ -52,8 +52,11 @@ vips = {
             ["conce"] = 1
         }
     },
-    ["pratafree"] = {
-        setagem = "prata"
+    ["tiktok"] = {
+        setagem = "pratafree",
+		veiculos = {
+            ["tiktok"] = 1
+        }
     },
     ["ouro"] = {
         setagem = "ouro",
@@ -61,9 +64,6 @@ vips = {
         veiculos = {
             ["vip"] = 1
         }
-    },
-    ["ourofree"] = {
-        setagem = "ourofree"
     },
     ["platina"] = {
         setagem = "platina",
